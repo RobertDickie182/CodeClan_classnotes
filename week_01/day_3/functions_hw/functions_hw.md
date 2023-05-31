@@ -1,7 +1,5 @@
 # Python Functions Practice
 
-**Lesson Duration: 120 minutes**
-
 ### Learning Objectives
 - Practice creating functions
 - Practice creating objects, assigning variables, calling functions
