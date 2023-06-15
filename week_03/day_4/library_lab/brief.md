@@ -1,4 +1,4 @@
-# CodeClan Library Weekend Homework
+# CodeClan Library Lab
 
 Your task is to model a Flask app which will list books in a Library.
 
