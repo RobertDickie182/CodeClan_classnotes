@@ -1,18 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CodeClan Library - Books</title>
-</head>
-<body>
-    <main>
-        {% for book in books %}
-            <section>
-                <h1>{{ book.formatted_name() }}</h1>
-                <p>{{ book.description }}</p>
-            </section>
-        {% endfor %}
-    </main>
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block content %}
+{% for book in books %}
+    <section>
+        <h1>{{ loop.index }}. {{ book.formatted_name() }}</h1>
+        <p>{{ book.description }}</p>
+        <a href="/books/{{ loop.index0 }}">View details</a>
+    </section>
+{% endfor %}
+{% endblock %}
