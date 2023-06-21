@@ -48,6 +48,11 @@ We'll decide what our left and right table will be. Let's say that the left tabl
 
 ## Let's make the magic happen
 
+Create a file called queries.sql
+```bash
+touch queries.sql
+```
+
 STEP ONE: Get all the columns from the left table (`victims`)
 ```sql
 -- queries.sql
