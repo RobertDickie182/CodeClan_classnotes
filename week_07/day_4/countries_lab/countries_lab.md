@@ -16,7 +16,8 @@ Your app should be able to:
 
 ## Extensions
 
-- Show a list of the selected country's neighbouring countries.
-- Display the total population of these neighbouring countries.
 - Prevent the same country being added to the user's favourite countries list twice.
 - Diplays the countries flag (from the flags field, not the icon) next to its name
+- Add some CSS styling.
+
+
