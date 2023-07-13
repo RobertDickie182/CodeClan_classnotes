@@ -18,13 +18,12 @@ const CountriesContainer = () => {
       .then(countriesData => setCountries(countriesData))
   }
 
-  const handleCountrySelected = (cca3) => {
+  const handleCountrySelected = cca3 => {
     setSelectedCountryCCA3Code(cca3)
   }
 
   const handleFavouriteToggle = (cca3) => {
     const updatedCountries = countries.map((country) => {
-        // condition ? display if condition is met : display if condition is false 
       return country.cca3 === cca3 
         ? {...country, isFavourite: !country.isFavourite}
         : country

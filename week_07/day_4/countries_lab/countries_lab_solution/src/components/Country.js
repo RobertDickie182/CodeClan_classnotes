@@ -7,7 +7,7 @@ const Country = ({ country, onFavouriteToggle }) => {
   const handleClick = () => {
     onFavouriteToggle(country.cca3)
   }
-  // condition ? display if condition is met : display if condition is false 
+
   const favouriteBtnText = country.isFavourite ? 'Remove from favourites' : 'Add to favourites'
 
   return (
