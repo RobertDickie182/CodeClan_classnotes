@@ -31,8 +31,14 @@ There is a more extensive list of public APIs [here](https://github.com/public-a
 
 Looking into a library to visual the data.
 
+LEAFLET
 - [Leaflet](https://leafletjs.com/) is an open-source library for rendering maps
+- [React Leaflet Docs](https://react-leaflet.js.org/) You will need both of these docs to get leaflet working in React.
+
+GOOGLE CHARTS
 - [Google Charts](https://developers.google.com/chart/) is a library for rendering charts and graphs
+
+CANVAS
 - [Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial) is a drawing surface for JavaScript.
 
 You will need to use the library's documentation to integrate it into your application.
