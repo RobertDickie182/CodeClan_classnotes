@@ -8,7 +8,6 @@ function CountriesContainer() {
     const [favouriteCountries, setFavouriteCountries] = useState([]);
     const [selectedCountry, setSelectedCountry] = useState(null);
 
-
     // es6 - .then()
     // function fetchCountries() {
     //     fetch('https://restcountries.com/v3.1/all')
