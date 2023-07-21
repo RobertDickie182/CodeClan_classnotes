@@ -79,6 +79,7 @@ and the scripts you added to your package.json file should kick into action. It 
 ## Step 7: Update Your Repository Settings
 Go to settings in your repository and look at the GitHub Pages section. Underneath the Source heading, you should have the option to select which branch the site is being built from. If it isn't already change the branch to `gh-pages`. This way, your repository will know what files you want to use to build your website.
 
+Settings > Code and automation > Environments > Deployment branches
 
 ## Step 8: Celebrate Your Success in Building Your Website!!
 Your site should now be available at `your-username.github.io/portfolio`. Sure, it's not quite a full-blown portfolio website yet, but you've done the hard work and now you can start on the fun part!
