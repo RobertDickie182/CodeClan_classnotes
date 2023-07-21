@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import BookList from './components/BookList';
+import Heading from './components/Heading';
 import './App.css';
 
 function App() {
+  console.log('App component rendering');
+
   const [books, setBooks] = useState([
     { title: 'Clean Code', author: 'Robert Martin' },
     { title: 'Eloquent JavaScript', author: 'Marijn Haverbeke' },
@@ -17,11 +20,11 @@ function App() {
   return (
     <div id="grid-container">
         <header>
-            <h1>CC Library</h1>
+            <Heading text="CC Library" />
         </header>
         <main>
             <section>
-                <h1>CCL - The CodeClan Library</h1>
+                <Heading text="CCL - The CodeClan Library" />
                 <h2>Books</h2>
                 <BookList books={books} onRemoveButtonClick={removeBook} />
             </section>
