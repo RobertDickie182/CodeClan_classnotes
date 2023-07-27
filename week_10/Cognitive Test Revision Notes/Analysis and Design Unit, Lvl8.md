@@ -23,8 +23,9 @@ Select an Agile approach such as Scrum or Kanban, produce an Agile Product Roadm
 
 #### **Reference material**
 
-- Week 9, Day 4: [Agile Lesson](week_09/day_4/01_agile_scrum/agile_scrum.md)
-- UX Half Day Slides (Pinned on Slack Classroom Channel)
+- Week 8, Day 4: [Cloud Day Lesson](week_08/day_4/agile_devops_cloud/workshop/dev_ops_story.md)
+
+- UX Half Day Slides (Classroom Channel)
 
 - Tutorialspoint's section on [Software Development Life Cycle](http://www.tutorialspoint.com/sdlc/index.htm) covers the following topics:
 
